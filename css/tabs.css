@@ -1,0 +1,54 @@
+
+
+/* Navigation */
+
+nav {
+	margin-bottom: 15px;
+	position: relative;
+}
+
+nav ul {
+	overflow: hidden;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #ddd;
+	list-style:none;
+}
+
+nav li {
+	float: left;
+	margin-right: 50px;
+}
+
+nav li a:hover,
+nav li a:focus,
+nav li a.current {
+	color: #ff0000;
+}
+
+nav #indicator {
+	position: absolute;
+	left: 15px;
+	bottom: 2px;
+	width: 12px;
+	height: 7px;
+	background-image: url('../images/notch.png');
+}
+
+
+
+
+
+/* Content */
+
+#content section {
+	display: none;
+}
+
+#content p {
+	margin-bottom: 1em;
+	max-width: 50em;
+	line-height: 1.6;
+}
+
+.tabs .active{color:#ff0000;background: url('../images/notch.png') no-repeat center bottom;}
+.tabs a{margin-right:15px;padding-bottom:10px;}
