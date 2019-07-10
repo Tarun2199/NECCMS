@@ -46,13 +46,14 @@
 		          	
             <li class="v1_menubtnofHeader"><a href="#"><img alt="sample text" src="img/menu.png" /></a></li>
 
-                    <li class="v1_homepageShowMDmenu"><a class="v1_arrownonemo" href='#1500924577091' onclick="dataLayer.push({'event':'header_navigation_bar_click_All_Pages_8','pageType':document.title,'clickText':'My Account'});" >
-		              My Account
-		              <span class="caret"></span></a>
-		            </li>
-		            <li class="v1_homepageShowMDmenu"><a class="v1_arrownonemo" href='contact.php' onclick="dataLayer.push({'event':'header_navigation_bar_click_All_Pages_8','pageType':document.title,'clickText':'CONTACT US'});" >
+                    
+		            <li class="v1_homepageShowMDmenu"><a class="v1_arrownonemo" href='contact_us.html' onclick="dataLayer.push({'event':'header_navigation_bar_click_All_Pages_8','pageType':document.title,'clickText':'CONTACT US'});" >
 		              Contact US 
 		              <span class=""></span></a>
+		            </li>
+		            <li class="v1_homepageShowMDmenu"><a class="v1_arrownonemo" href='#1500924577091' onclick="dataLayer.push({'event':'header_navigation_bar_click_All_Pages_8','pageType':document.title,'clickText':'My Account'});" >
+		              My Account
+		              <span class="caret"></span></a>
 		            </li>
 		            
 		          </ul>
@@ -62,14 +63,18 @@
 		              <span class=""></span></a>
 		            </li>
 		            <li class=""><a href='' onclick="dataLayer.push({'event':'header_navigation_bar_click_All_Pages_8','pageType':document.title,'clickText':'ONLINE STORES'});">
-		              Location Finder 
+		              Tracker 
+		              <span class=""></span></a>
+		            </li>
+		            <li class=""><a href='booking.php' onclick="dataLayer.push({'event':'header_navigation_bar_click_All_Pages_8','pageType':document.title,'clickText':'Companies'});">
+		              Booking
 		              <span class=""></span></a>
 		            </li>
 		            <li class=""><a href='' onclick="dataLayer.push({'event':'header_navigation_bar_click_All_Pages_8','pageType':document.title,'clickText':'Companies'});">
 		              Price Calulator
 		              <span class=""></span></a>
 		            </li>
-		            <li class=""><a href='' onclick="dataLayer.push({'event':'header_navigation_bar_click_All_Pages_8','pageType':document.title,'clickText':'Companies'});">
+		            <li class=""><a href='#1500924577092' onclick="dataLayer.push({'event':'header_navigation_bar_click_All_Pages_8','pageType':document.title,'clickText':'Companies'});">
 		              More
 		              <span class="caret"></span></a>
 		            </li>
@@ -80,6 +85,14 @@
 		              	<li class="" id="headerdata"><a href="">Admin Login</a></li>
 		              	<li class="" id="headerdata"><a href="">Sub Admin Login</a></li>
 		              	<li class="" id="headerdata"><a href="">Login</a></li>
+		              </ul>
+		            </div>
+		           <div class="v1_submenuBox">
+		              <ul id="1500924577092">
+		              	<li class="" id="headerdata"><a href="">About Us</a></li>
+		              	<li class="" id="headerdata"><a href="">Our Team</a></li>
+		              	<li class="" id="headerdata"><a href="">F.A.Q</a></li>
+		              	<li class="" id="headerdata"><a href=""></a></li>
 		              </ul>
 		            </div>
         </div>

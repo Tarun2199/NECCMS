@@ -26,7 +26,7 @@
                     <h4><a href="location.html">F.A.Q</a></h4>
                 </div>
                 <div class="fuBigLinkSec1">
-                    <h4><a href="location.html">Location Finder</a></h4>
+                <h4><a href="location.html">Location Finder</a></h4>
                     <br>
                     <br>
                     <br>
@@ -57,14 +57,14 @@
                                     <p class="fconBoxTxtW">OFFICE:
                                     <p class="fconBoxTxtG">Campus -1, 19th KM Stone, NH 24, Ghaziabad, Uttar Pradesh 201009
                                         <br>
-                                        Phone: 020 3957 5152
+                                        Phone: 8979554651
                                         <br><br>
                                     </p>
                                     </p> 
                                     <p class="fconBoxTxtW">EMAIL : 
-                                    <p class="fconBoxTxtG">wecare@.in</p>
+                                    <p class="fconBoxTxtG">wecare@gofer.in</p>
                                     </p> 
-                                    <p class="fconBoxTxtW">© 2018 Gofer
+                                    <p class="fconBoxTxtW">© 2019 Gofer
                                     <p class="fconBoxTxtG"></p>
                                     </p> 
                                 </div>
