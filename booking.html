@@ -1,0 +1,112 @@
+<head>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
+</head>
+<body style="background-color:  #D3D3D3;font-size: 180%;"><br>
+<div id="header"></div>
+	<strong><br>
+		<p class="text-center"style="font-size: 25px;padding: 10px;">Create Shipment</p>
+	</strong>
+	<style>
+		.container
+		{
+			position: relative;
+		}
+		.verticalline
+		{
+			position: absolute;
+			border-left: 1px solid black;
+  			height: 860px;
+  			top: 0px;
+ 			left: 550px;
+		}
+		.next
+		{
+			position: absolute;
+			top: 790px;
+			left: 970px;
+			
+		}
+		p
+		{
+			font-size: 110%
+			
+
+		}
+		input
+		{
+			opacity: 0.7
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: none;
+			border-bottom: 1px solid black;
+			background-color: #D3D3D3;
+		}
+	</style>
+	<div class="container">	
+		<div class="col-md-6">
+			<div style="margin-left: 7%;">
+			<form >
+				<strong><p  class="text-center" style="font-size: 25px;"> From </p></strong><br>
+				<p> Name*<br><input type="text" name="name"  size="50" id="name" placeholder="First name and Last name" required></p>
+				<p> Address* <br>
+				<input type="text" name="Address" size="50" id="Address" placeholder="ex123" required></p>
+				<p> Address2* <br>
+				<input type="text" name="Address2" id="Address2" size="50" placeholder=" example" required></p>
+				<p> Address3 <br>
+				<input type="text" name="Address3" size="50" placeholder="near example" id="Address3"></p>
+				<p> City* <br>
+				<input type="text" size="50" name="City" id="State" placeholder="ghaziabad" required></p>
+				<p> State* <br>
+				<input type="text" size="50" name="State" id="State" placeholder="state" required></p>
+				<p> Pin Code* <br>
+				<input type="text" name="Pincode" id="pin" size="50" placeholder="pin Code" required></p>
+				<p> Mob No* <br>
+				<input type="text" name="mob" id="mob" size="50" placeholder="7623235235" required></p>
+				<p> Email* <br>
+				<input type="email" name="email" id="email" size50" placeholder="ex@" required></p>
+				<p> Address type* <br>
+				<input type="checkbox"  value="home"> Home 
+				<input type="checkbox" value="work"> Work</p><br>
+			</form><br><br>
+			</div>
+		</div>
+		<div class="verticalline">
+		</div>
+		<div class="col-md-6 " >
+			<form style="margin-left: 7%;">
+				<strong><p class="text-center"style="font-size: 25px;"> To </p></strong><br>
+				<p> Name*<br><input type="text" name="name" size="50" id="name" placeholder="First name and Last name" required></p>
+				<p> Address* <br>
+				<input type="text" name="Address" size="50" id="Address" placeholder="ex123" required></p>
+				<p> Address2* <br>
+				<input type="text" name="Address2" id="Address2" size="50" placeholder=" example" required></p>
+				<p> Address3 <br>
+				<input type="text" name="Address3" size="50" placeholder="near example" id="Address3"></p>
+				<p> City* <br>
+				<input type="text" size="50" name="City" id="State" placeholder="ghaziabad" required></p>
+				<p> State* <br>
+				<input type="text" size="50" name="State" id="State" placeholder="state" required></p>
+				<p> Pin Code* <br>
+				<input type="text" name="Pincode" id="pin" size="50" placeholder="pin Code" required></p>
+				<p> Mob No* <br>
+				<input type="text" name="mob" id="mob" size="50" placeholder="7623235235" required></p>
+				<p> Email* <br>
+				<input type="email" name="email" id="email" size50" placeholder="ex@" required></p><p> Address type* <br>
+				<input type="checkbox" name="Addresstype" value="home" id="home"> Home 
+				<input type="checkbox" name="Addresstype" value="work" id="work"> Work </p>
+				<button class="btn btn-primary"style="opacity:0.7; left: 70%;float: right; margin-right: 15%; width: 20%;"type="button">Next</button>
+			</form>
+	</div>
+</div>
+<div id="footer"></div>
