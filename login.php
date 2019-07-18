@@ -15,9 +15,16 @@
     <link rel="stylesheet" href="theme/libs/assets/tooltipster-sideTip-shadow.min.css" type="text/css">
     <link href="css/tabs.css" rel="stylesheet" type="text/css">
 
-<style>.cke{visibility:hidden;}</style></head>
+<style>.cke{visibility:hidden;}
+		.outline {
+	border-radius: 1%;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+	padding : 0px 10px ;
+	
+}
+</style></head>
 
-<body>
+<body style= 'background-image : url("login_image.jpg")';>
 
 
 
@@ -32,10 +39,10 @@
 <div class=" app-header-fixed"></div>
  
 <div class="container w-xxl">
-    
+<div class="outline">
     <div class="navbar-brand_login block m-t"> <img src="../img/logo.png"> </div>
     
-    
+    <div class="text-center" style='font-size:28px;margin-top:5%;color:#5b599e;font-family:inherit;text-shadow: 5px 5px 3px #d2caca;'><b>Customer Login</b></div>
     
     
     <div class="m-b-lg">
@@ -57,14 +64,17 @@
             <input id="admin_login" name="submit" value="Login" class="btn btn-lg btn-primary btn-block" type="submit"><span id="loginmsg" style="display:none"></span>
         </div>
         </form>
-        <div class="text-center text-center m-t-sm text-info"><a href="https://backoffice.infinitemlmsoftware.com/login/user">User Login</a></div>
         <div class="text-center m-t-md"><a href="https://backoffice.infinitemlmsoftware.com/login/forgot_password">Forgot Password?</a></div>
         <div class="line line-dashed"></div>
-        <p class="text-center"><small>Don't have an account? </small></p>
-        <a class="btn btn-lg btn-default btn-block" href="https://infinitemlmsoftware.com/register.php">
+		</div>
+		</div>
+        <div class="m-b-lg">
+		<p class="text-center"><small>Don't have an account? </small></p>
+		
+        <a class="btn btn-lg btn-default btn-block" href="signup.php">
                                 Signup now
                             </a>
-                             <div class="text-center text-center m-t-sm text-info"><a href="../index.php" target="_blank">Back to Website</a></div>
+                             <div class="text-center text-center m-t-sm text-info"><a href="index.php" target="_blank">Back to Website</a></div>
                             </div>
                             
     <div class="text-center" ng-include="'tpl/blocks/page_footer.html'"></div>
