@@ -1,0 +1,268 @@
+.btn-addon.btn-sm i {
+    width: 30px;
+    height: 30px;
+    margin: -6px -12px;
+    margin-right: 10px;
+    line-height: 30px;
+}
+.navbar-brand {
+    max-height: 50px;
+}
+.app-header-fixed {
+    padding-top: 50px;
+}
+.app-aside-folded .avatar.thumb-lg img {
+    height: 30px;
+}
+
+.input-group.input-group-hide {
+    display: flex;
+}
+
+.input-group-hide>.input-group-addon {
+    display: none;
+}
+
+label.required:after {
+    content: "*";
+    color: red;
+}
+
+.form-group-right {
+    text-align: right !important;
+}
+
+.text_input {
+    height: 34px !important;
+}
+
+.no-display {
+    display: none;
+}
+
+.setting-selected {
+    border-bottom: 2px solid #6254b2;
+    color: #58666e !important;
+}
+
+.fa-1-5-x {
+    font-size: 1.5em;
+}
+
+.symbol.required:before {
+    content: "*";
+    display: inline;
+    color: #E6674A;
+}
+
+.img-ban {
+    display: block;
+    height: 200px;
+}
+
+ul.pagination {
+    margin-top: 0px;
+    float: right !important;
+}
+
+span#username_box img {
+    width: 15px;
+}
+span#checkmsg img {
+    width: 15px;
+}
+span#error_user_name img {
+    width: 15px;
+}
+span#errormsg3 img {
+    width: 15px;
+}
+
+ul.pagination {
+    margin-top: 0px;
+    float: right !important;
+}
+
+.search_pin,
+.search_pin_pro {
+    margin-top: 26px;
+    padding-left: 3px;
+    position: absolute;
+}
+.text-fb {
+    color: #3B5998;
+}
+.form-group .help-block:first-letter {
+    text-transform: uppercase;
+}
+td .help-block:first-letter {
+    text-transform: uppercase;
+}
+td .help-block {
+    color: #a94442;
+}
+.help-block.error {
+    color: #a94442;
+}
+.form-control-static {
+    
+    padding-top: 0px;    
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 0px !important;
+    color: #858585;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 5px 10px;
+    transition-duration: 0.1s;
+    box-shadow: none;
+    height: 34px !important;
+    overflow:hidden;
+}
+.Zebra_DatePicker_Icon_Wrapper {
+    width: 100% !important;
+}
+.has-error .cke_chrome {
+    border: 1px solid #a94442;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .has-error+.search_pin {
+        margin-top: -10px !important;
+    }
+    .has-error+.search_pin_pro {
+        margin-top: -25px !important;
+    }
+    .search_pin_pro,
+    .search_pin {
+        padding-left: 0px !important;
+        position: inherit !important;
+    }
+}
+
+@media (max-width:767px) {
+    .search_pin,
+    .search_pin_pro {
+        margin-top: 0px !important;
+        padding-left: 0px !important;
+        position: inherit !important;
+    }
+}
+span#errormsg2 img {
+    width: 17px;
+}
+#referral_box img {
+    width: 17px;
+}
+.messageboxok {
+    opacity: 1 !important;
+}
+#error_product img {
+    width: 17px;
+}
+/*.combodate select{
+    width: 145px !important;
+}*/
+#agree {
+    width: 5% !important;
+}
+.messageboxerror img {
+    width: 17px;
+}
+.messagebox img {
+    width: 17px;
+}
+.messageboxok img {
+    width: 17px;
+}
+/*#ewallet_btn {
+    font-size: 14px !important;
+    line-height: .5;
+}*/
+/*#check_ewallet_button {
+    width: 35%;
+}*/
+#msform input[disabled] {
+    opacity: .5;
+    cursor: not-allowed !important;
+}
+.btn-light-grey {
+    background: lightgrey;
+    
+}
+#p_scents td:nth-child(2) {
+    max-width: 100%;
+}
+.padding-5{
+    padding: 5px!important;
+}
+#img_prev {
+    width : 20%;
+}
+.messageboxerror {
+    color: #a94442;
+}
+.help-block {
+    color: #a94442;
+}
+.list-group-item span.tooltip.green p {
+    margin: 7px 0px 8px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+.more img {
+    width: 300px;
+}
+.less a:hover{
+    color: #2a6496;
+    text-decoration: underline;
+}
+.imgpre {
+   max-width: 200px;
+   max-height: 150px;
+   width: 100px;
+   line-height: 20px;
+}
+form.inline-form-button {
+    display: inline-block;
+}
+.Compensation_config {
+    color: #a9a7a7;
+    font-size: 18px;
+    position: absolute;
+}
+.td odd {
+    text-align: left;
+}
+.btn-lkin {
+    background-color: #2a77b5;
+    color: white !important;
+}
+#section_top_earners .list-group-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#section_social_media .list-group-item {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.note-demo {
+    background-color: #c8edf4;
+    background-position: 9px 0px;
+    background-repeat: no-repeat;
+    border-left: solid 4px #3498db;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 15px 15px;
+    display: flex;
+    margin-top: 10px;
+}
+.note-demo > .note-desc {
+    margin-left: 15px;
+}
+.note-demo > .note-desc p {
+    word-break: break-all;
+    font-size: 15px;
+}
