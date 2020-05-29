@@ -3873,7 +3873,7 @@ a.text-info:hover {
 }
 
 .text-info {
-    color: #23b7e5;
+    color: #7266ba;
 }
 
 .text-info-lt {
@@ -6220,10 +6220,6 @@ h6.my-0 {
 
 .card button:hover {
     opacity: 0.7;
-}
-
-img {
-    width: 100%
 }
 
 .checkout-image img {
